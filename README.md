@@ -1,31 +1,41 @@
-**This repo is just a backup for my neovim setup for easy installation**
+# Basic Nvchad Neovim Setup
+I made this repo as a backup of my Neovim setup
 
-**Prerequisites**
+## Installation
+1. Install termux from github or fdroid
 
--For Termux I do this:
+2. Setup termux:
+```
+pkg update && pkg upgrade
+termux-setup-storage
+```
 
-pkg update && pkg upgrade -y && termux-setup-storage && pkg install cmake neovim python nodejs git
+3. Install dependencies:
+```
+pkg install cmake neovim python nodejs git
+```
 
-This repo is also derived from Nvchad so you 
-can go there for documentations and other
-dependencies
+4. Clone repository:
+```
+git clone https://github.com/fr4pp3r/basic_nvchad_neovim ~/.config/nvim
+```
 
-**Setup Installation**
-
-backup your current nvim config files (if you have any) and use the command line below
-
-git clone https://github.com/fr4pp3r/basic_nvchad_neovim ~/.config/nvim && nvim
-
-
-You will also need to install nerd fonts on your
-terminal
-A font is also included in this repo
-Install it by running:
-
+5. Install Nerd font:
+- You can the use the included font by using the code below
+```
+cd .config/nvim/
 cp MonaspiceNeNerdFont-Regular.otf $HOME/.termux/font.ttf
-
-You can install your own nerd fonts by
-downloading it and use the same command
-
+cd
+```
+- Or you can use other nerd fonts from [NerdFonts](https://www.nerdfonts.com/) and using the code below
+```
+cd [path of the font]
 cp [font filename] $HOME/.termux/font.ttf
+cd
+```
 
+6. Run neovim and allow it to finish installation
+```
+nvim
+```
+Check [Nvchad](https://nvchad.com/) for documentations
