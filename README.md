@@ -38,4 +38,7 @@ cd
 ```
 nvim
 ```
-Check [Nvchad](https://nvchad.com/) for documentations
+
+## Credits
+- [NvChad Team](https://github.com/NvChad): For their amazing works!
+- [CRAG666](https://github.com/CRAG666): For an amazing coderunner plugin
