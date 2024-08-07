@@ -14,7 +14,7 @@ dependencies
 
 backup your current nvim config files (if you have any) and use the command line below
 
-git clone https://github.com/fr4pp3r/neovim_setup ~/.config/nvim && nvim
+git clone https://github.com/fr4pp3r/basic_nvchad_neovim ~/.config/nvim && nvim
 
 
 You will also need to install nerd fonts on your
