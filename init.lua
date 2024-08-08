@@ -24,12 +24,11 @@ require("lazy").setup({
       require "options"
     end,
   },
-  { "CRAG666/code_runner.nvim", config = true },
 
   { import = "plugins" },
 }, lazy_config)
 
--- load theme
+--load theme
 dofile(vim.g.base46_cache .. "defaults")
 dofile(vim.g.base46_cache .. "statusline")
 

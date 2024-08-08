@@ -1,7 +1,7 @@
 require "nvchad.mappings"
 
 -- add yours here
-vim.keymap.set("n","<leader>runh",function ()
+vim.keymap.set("n","<leader>run",function ()
   require("nvchad.term").runner {
     id = "boo",
     pos = "sp",

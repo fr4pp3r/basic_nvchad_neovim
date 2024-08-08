@@ -13,13 +13,22 @@ return {
     end,
   },
 
-  -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
-  -- },
+  {
+  	"nvim-treesitter/nvim-treesitter",
+  	opts = {
+  		ensure_installed = {
+  			"vim",
+        "lua",
+        "vimdoc",
+        "html",
+        "css",
+        "c",
+        "java",
+        "python"
+  		},
+  	},
+  },
+
+  { "CRAG666/code_runner.nvim", config = true },
+
 }
